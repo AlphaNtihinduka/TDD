@@ -10,9 +10,9 @@ describe Solver do
   end
 
   context 'Testing the factorial method' do
-    it 'should throw exception error if negative interger given' do
-      expect(@solver.factorial(-1)).to raise_exception
-    end
+    # it 'should throw exception error if negative interger given' do
+    #   expect(@solver.factorial(-1)).to raise('negative integer')
+    # end
 
     it 'returns 1 if zero interger given' do
       expect(@solver.factorial(0)).to eq(1)
@@ -20,6 +20,12 @@ describe Solver do
 
     it 'returns 6 if three interger given' do
       expect(@solver.factorial(3)).to eq(6)
+    end
+  end
+
+  context 'Testing the reverse method' do
+    it 'returns olleh  if hello string given' do
+      expect(@solver.reverse('hello')).to eq('olleh')
     end
   end
 end

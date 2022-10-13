@@ -1,11 +1,8 @@
 class Solver
- def factorial(num)
-  raise Exception, 'You give a negative number' if num.negative?
+  def factorial(num)
+    # raise 'negative integer' if num.negative?
 
-  if num.zero?
-    1
-  elsif num.positive?
-    num * factorial(num - 1)
+    return 1 if num.zero?
+    return num * factorial(num - 1) if num.positive?
   end
-end
 end
