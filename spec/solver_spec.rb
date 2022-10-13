@@ -28,4 +28,22 @@ describe Solver do
       expect(@solver.reverse('hello')).to eq('olleh')
     end
   end
+
+  context 'Testing the fizzbuzz method' do
+    it 'returns fizz if given integer 3' do
+      expect(@solver.fizzbuzz(3)).to eq('fizz')
+    end
+
+    it 'returns buzz if given integer 5' do
+      expect(@solver.fizzbuzz(5)).to eq('buzz')
+    end
+
+    it 'returns fizzbuzz if given integer 15' do
+      expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+    end
+
+    it 'returns "7" if given integer 7' do
+      expect(@solver.fizzbuzz(7)).to eq('7')
+    end
+  end
 end
