@@ -1,40 +1,88 @@
-# ruby_template
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-> This is ruby template
+# TDD
 
+> This project implements a class with some methods, but by doing test-driven development (TDD). The idea is to write tests first and then the code.
+
+# Features
+
+- Solver class
+- factorial method.
+- reverse method.
+- fizzbuzz method.
 
 ## Built With
 
-- Ruby language
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Language: Ruby
+- Code editor: Visual Studio Code
+- Linters: Rubocop
 
 ## Getting Started
 
-### Install
+To get a local copy up and running follow these simple example steps.
 
-For a complete list of ways to install Ruby, including using third-party tools like rvm, see:
+### Prerequisites
+
+-A code editor like Visual Studio Clone.
+-Git installed.
+-Ruby installed.
+
+To check if you have Git and Ruby installed you can use the commands below:
+
+ ```sh
+   $ git --version
+   $ ruby --version && irb
+   ```
+If you don't have Ruby, you can find a complete list of ways to install Ruby, including using third-party tools like rvm, see:
 
 (https://www.ruby-lang.org/en/downloads/)
+### 🛠 Installation & Set Up
 
-### Setup
-The mirror of the Ruby source tree can be checked out with the following command:
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-$ git clone https://github.com/ruby/ruby.git
-There are some other branches under development.
+[Download the ZIP from this location](https://github.com/VaneCode/school-libray/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-Try the following command to see the list of branches:
+```bash
+git clone git@github.com:AlphaNtihinduka/TDD.git
+```
+```
+cd TDD
+```
+### Install
 
-$ git ls-remote https://github.com/ruby/ruby.git
+```
+ bundle install
+```
 
+### Run Linters
+
+```
+rubocop
+```
+
+### run test
+
+```
+rspec spec
+```
+
+- Open the [Repository Link](https://github.com:AlphaNtihinduka/TDD) of this project in GitHub.
+
+- Once the files are on your machine, open school-library folder in [Visual Studio Code](https://code.visualstudio.com/).
+
+### Usage
+
+-Once you have your repository cloned on your machine, feel free to modify it as needed.
 
 ## Authors
 
-👤 **Ntihinduka Alpha**
+👤 **Vanessa Bonito**
+
+- GitHub: [@VaneCode](https://github.com/VaneCode)
+- Twitter: [@BonitoNarvaez](https://twitter.com/BonitoNarvaez)
+- LinkedIn: [Vanessa Bonito Narváez](https://www.linkedin.com/in/vanessa-bonito-narvaez/)
+
+**Ntihinduka Alpha**
 
 - GitHub: [@githubhandle](https://github.com/AlphaNtihinduka)
 - Twitter: [@twitterhandle](https://twitter.com/@alphantihinduka)
@@ -54,7 +102,6 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
 ## 📝 License
 
